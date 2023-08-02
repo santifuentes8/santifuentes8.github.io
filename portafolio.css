@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box ;
+    margin:0;
+    padding:0;
+      
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    color: #000000;
+    display: block;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.5em;
+    margin: 29px;
+} 
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.35em;
+}
+button{
+    font-size: 1.30em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    color: #fff;
+    background-color:#42e2a5;
+    box-shadow: 2px 2px 12px #000;
+}
+button:hover{
+    background-color:#05a877 ;
+    padding: 13px 25px;
+    border: 2px solid white;
+    transition: 0.25s;
+}
+a{
+    color:#4DF3B2;
+}
+
+.color-acento{
+    color:#4DF3B2;
+}
+header{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+header .head-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #6e6e6e;
+}
+.logo-cont img {
+    margin-left: 8px;
+    width: 60px;
+    height: 60px;
+}
+.logo-cont img:hover {
+    width: 67px;
+    height: 67px;
+    transition: 0.4s;
+    
+    }
+header nav{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 15px;
+    padding-top: 25px;
+
+}
+header a{
+    padding: 5px 15px;  
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+header a:hover{
+    color:#4DF3B2 ;
+}   
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh ;
+    color: #fff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+     )
+    ,url("presentation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#presentation p{
+    padding: 30px;
+}
+
+#experience{
+    text-align: center;
+    padding: 160px 15px;
+    background-color: #4DF3B2;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+ul.tabla li
+{
+
+display: inline;
+
+float: left;
+padding: 2px;
+width: 33%;
+
+border-right: #2e2e2e 3px solid;
+
+
+}
+
+#experience button{
+    background-color: #000;
+    
+}
+#experience button:hover{
+    background-color: #2e2e2e;
+    padding: 10px 25px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+#contact {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 100vh ;
+        color: #fff;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+         )
+        ,url("contactos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+
+
+
